@@ -1,0 +1,75 @@
+body{
+    height: 50vh;
+    margin: 100px;
+    background-color: #00BFFF;
+}
+
+.Formulario{
+    width: 1052px;
+    padding: 25px 70px 70px 25px;
+    text-align: center;
+    float: unset;
+    justify-content: space-around;
+    border:1px solid #00BFFF;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    
+}
+
+
+textarea{
+    width: 95%;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-position-y: center;
+    line-height: 20px;
+    padding: 10px;
+    height: 100px;
+    margin: 10px;
+    resize: none;
+}
+
+input{
+    width: 46%;
+    padding: 5px;
+    float: left;
+    outline: none;
+    justify-content: space-around;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    margin: 10px;
+   
+}
+
+.EscServico{
+    width: 47%;
+    float: left;
+    outline: none;
+    height: 40px;
+    line-height: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+
+input[type=button]{
+    display: block;
+    background-color: #1E90FF;
+    color: white;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 10 auto;
+    text-align: center;
+    border-radius: 10px;
+    float: right;
+    box-shadow: 0px 4px 9px -2px rgba(0,0,0,0.75);
+    
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets\CSS\estilo.css">
+    <script>
+        function Enviar() 
+        {
+            alert("Formulário enviado com sucesso, parabéns!!");
+        }
+
+    </script>
+    <title>Formulario</title>
+</head>
+    <title>Formulário de Contato</title>
+<body>
+
+        <form class="Formulario" method="POST">
+
+            <h1>Peça seu orçamento agora mesmo!</h1>
+
+            <input type="text" id="nome" placeholder="Nome" name="nome" required>
+        
+            <input type="email" id="email" placeholder="E-mail" name="email" required>
+
+            <input type="tel" id="tel" placeholder="Telefone" name="telefone" required>
+
+            <select class="EscServico">
+                <option value="" >Escolha o serviço que deseja</option>
+                <option value="desenvolvimento" >Desenvolvimento</option>
+                <option value="design" >Design</option>
+                <option value="web" >Web</option>
+            </select>
+
+            <textarea placeholder="Mensagem"></textarea>
+
+            <input type="button" onclick="Enviar();" value="Enviar" />
+
+        </form>
+
+</body>
+</html>
