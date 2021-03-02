@@ -5,13 +5,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets\CSS\estilo.css">
+    
     <script>
-        function Enviar() 
+        function enviar()
         {
             alert("Formulário enviado com sucesso, parabéns!!");
+            return true;
         }
 
     </script>
+    
     <title>Formulario</title>
 </head>
     <title>Formulário de Contato</title>
@@ -36,7 +39,7 @@
 
             <textarea placeholder="Mensagem"></textarea>
 
-            <input type="button" onclick="Enviar();" value="Enviar" />
+             <input type="submit" value="Enviar" onclick="return enviar();" />
 
         </form>
 
